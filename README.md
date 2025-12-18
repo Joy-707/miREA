@@ -20,7 +20,7 @@ miREA is designed to address the intrinsic many-to-many regulatory interactions 
 miREA are implemented based on R. Required R packages include (but are not limited to): 
 * dplyr (1.14), tidyr (1.3.1), tidyverse (2.0.0), stringr (1.5.1), conflicted (1.2.0), igraph (2.1.4), V8 (6.0.1), data.table (1.16.4), Matrix (1.7.2), parallel (4.4.2), reticulate (1.40.0), ComplexHeatmap (2.22.0), RColorBrewer (1.1.3), grid (4.4.2), circlize (0.4.16), gridExtra (2.3), patchwork (1.3.0), scales (1.3.0), tibble (3.2.1), ggalluvial (0.12.5), ggplot2 (3.5.1), ggnewscale (0.5.0), colorspace (2.1.1), reshape2 (1.4.4)
 
-Please follow the following steps to get enrichment results (see details at analysis/3_case_study/example.R):
+Please follow the following steps to get enrichment results (producible at analysis/3_case_study/example.R):
 1. load all functions in R/ and library packages needed.
    ```r
    setwd("[directory of miREA]") # set working directory
