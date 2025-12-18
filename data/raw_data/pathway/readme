@@ -1,0 +1,11 @@
+summary_by_pathway_[path_name].csv:
+    pathway: pathway name
+    num_genes: number of genes involved in pathway gene set
+    num_TGs: number of target genes involved in pathway gene set
+    min: for all target genes, how many miRNAs are targeting certain TGs. The min value. (E.g. there are 3 target genes, targeting by 1, 3, 5 miRNAs, resepectively. then min is 1.)
+    q25: 25% quantile
+    mean: mean value (3 in example)
+    median: median value (3 in example)
+    q75: 75% quantile
+    max: max value (5 in example)
+    TGprop: num_TGs / num_genes

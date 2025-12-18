@@ -1,0 +1,26 @@
+> GGI_final <- check_gene_names(reactome_ggi_process, all_genes, colname = "source_gene")
+   97 / 13444 genes are not included.
+   25 / 97 genes can be transformed to the newest version:
+     POLR2, SLC22A18, N6AMT1, VEGFR1, CD95, VEGF, PARK2, NKG2C, BASH, IGF-I, PDNP1, CDC2, BAF53A, CCDC115, IL-18, DECR, CD21, PSCD3, CF, ORC5L, C4orf19, HER2, TRB, TMEM199, ORC4L 
+   72 / 97 genes are deleted because no mapping HGNC symbol:
+     AAG1, CCL3L1, ACOT7L, IRF-1, DKFZP666O0110, HEL-S-105, HEL-S-275, IGHV, IGHV3-9, IGLV, V1-11, V1-13, V1-16, V1-20, V1-3, V1-5, V1-7, V1-9, V2-11, V2-15, V2-17, V2-19, V2-8, V3-2, V3-3, V3-4, V4-1, V4-2, V4-6, V5-1, V5-4, V5-6, KIAA1149, FLJ00404, APE1, CASPASE-9C, GATA-4, DVL1P1, BCR/ABL FUSION, C-ERBB-3, DKFZP761C0417, DKFZP686A24188, CCL4L1, CD40 LIGAND, KIT-LIGAND, NY-CO-41, MUC3B, HEL-36, DKFZP313J1712, DKFZP434N1610, DKFZP547K209, DKFZP586L2318, DKFZP686E07254, DKFZP686F1789, DKFZP686N1969, DKFZP686O088, DKFZP686O1553, DKFZP781A0677, DUX1, DUX3, ETB1, ELE1-RET, FCERI, FLJ00017, FLJ00371, WUGSC:H_GS165O14.2, HCBF-C, HEL-S-96, NUMA1 VARIANT PROTEIN, MGC16025, PP7052, ZNF726P1 
+  Those genes have multi-mapping relationship when transform to newest version. Keep all of them. They are:
+     CDC2 → CDK1, POLD1 
+> GGI_final <- check_gene_names(GGI_final$result, all_genes, colname = "target_gene")
+   88 / 13457 genes are not included.
+   24 / 88 genes can be transformed to the newest version:
+     POLR2, SLC22A18, N6AMT1, VEGFR1, CD95, DF, VEGF, PARK2, NKG2C, BASH, IGF-I, PDNP1, CDC2, BAF53A, CCDC115, IL-18, CD21, PSCD3, CF, ORC5L, HER2, TRB, TMEM199, ORC4L 
+   64 / 88 genes are deleted because no mapping HGNC symbol:
+     MUC3B, AAG1, CCL3L1, IRF-1, DKFZP666O0110, HEL-S-105, HEL-S-275, IGHV, IGHV3-9, IGLV, V1-11, V1-13, V1-16, V1-20, V1-3, V1-5, V1-7, V1-9, V2-11, V2-15, V2-17, V2-19, V2-8, V3-2, V3-3, V3-4, V4-1, V4-2, V4-6, V5-1, V5-4, V5-6, KIAA1149, FLJ00404, WUGSC:H_GS165O14.2, CASPASE-9C, APE1, DKFZP686N1969, GATA-4, DVL1P1, BCR/ABL FUSION, C-ERBB-3, DKFZP761C0417, DKFZP686A24188, CD40 LIGAND, KIT-LIGAND, NY-CO-41, HEL-S-96, HEL-36, ELE1-RET, DKFZP547K209, DKFZP586L2318, DKFZP686E07254, DKFZP686O088, DKFZP686O1553, DKFZP781A0677, ETB1, FCERI, FLJ00371, HCBF-C, PP7052, NUMA1 VARIANT PROTEIN, MGC16025, ZNF726P1 
+  Those genes have multi-mapping relationship when transform to newest version. Keep all of them. They are:
+     CDC2 → CDK1, POLD1 
+
+RESULTS: 464630 unique GGIs, including 13640 unique genes (13352 unique source genes, 13373 unique target genes)
+    raw:
+        length(unique(c(reactome_ggi_process$source_gene, reactome_ggi_process$target_gene))) # 13733
+        length(unique(reactome_ggi_process$source_gene)) # 13444
+        length(unique(reactome_ggi_process$target_gene)) # 13460
+    transformed:
+        length(unique(c(GGI_final$source_gene, GGI_final$target_gene))) # 16340
+        length(unique(GGI_final$source_gene)) # 13352
+        length(unique(GGI_final$target_gene)) # 13373

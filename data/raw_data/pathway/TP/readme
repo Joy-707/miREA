@@ -1,0 +1,7 @@
+1. msigdb.v2025.1.Hs.symbols.gmt: original data downloaded from https://www.gsea-msigdb.org/gsea/downloads.jsp 
+(MSigDB v2025.1 is based on gene annotation data from Ensembl Release 114 (May 2025).)
+2. pathways_gene_summary.xlsx: true positive pathways and their gene sizes, for original pathway set.
+3. raw/[cancer]_gene.gmt: original pathway sets extracted from msigdb.v2025.1.Hs.symbols.gmt.
+4. cancer_specific/TP_[cancer]_gene.csv: pathway gene sets with genes all checked based on Ensembl Release 115.
+5. log_geneNamesCheck_toEnsembl115.txt: genes transformation log information generated during checking process. (from 3. to 4.)
+6. cancer_specific/pathways_geneSize_stat.xlsx: true positive pathways and their gene sizes, for pathway set after checking gene names.

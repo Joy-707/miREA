@@ -1,0 +1,3 @@
+cancerGeneList_COSMIC.csv: https://cancer.sanger.ac.uk/cosmic/census?tier=1, only tier 1, version: GRCh38 COSMIC v103, 590 genes in total
+cancerGeneList_OncoKB.tsv: https://www.oncokb.org/cancer-genes, 1209 genes, last update 11/24/2025
+cancerMiRList.csv: https://cmc.ibch.poznan.pl/List of CMC miRNA genes with characteristics, 165 miRNAs, cite: https://academic.oup.com/nar/article/52/4/1628/7585677#441564665

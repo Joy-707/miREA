@@ -1,0 +1,92 @@
+Enrichment Analysis Based on cancer: BLCA , pathway: hallmark .
+Step 1. Get all input data prepared.
+Step 2. Enrichment analysis...
+
+  === Start time: 2025-11-29 01:33:47 ===
+Start Enrichment analysis...
+=== Start time: 2025-11-29 01:33:47 ===
+
+  Start TG-ORA analysis ...
+  TG-ORA analysis have finished! 
+    - TG_ORA finished, time cost: 9.059 s. 
+
+  Start TG-Score analysis ...
+  TG-Score analysis have finished!
+    - TG_Score finished, time cost: 22.53 s. 
+
+  Start MiR-ORA analysis ...
+  MiR-ORA analysis have finished! 
+    - MiR_ORA finished, time cost: 0.903 s. 
+
+  Start MiR-Score analysis ...
+  MiR-Score analysis have finished!
+    - MiR_Score finished, time cost: 1.045 s. 
+
+  Start Edge-ORA analysis ...
+  Edge-ORA analysis have finished! 
+    - Edge_ORA finished, time cost: 1.961 s. 
+
+  Start Edge-Score analysis ...
+  Edge-Score analysis have finished!
+    - Edge_Score finished, time cost: 35.831 s. 
+
+  Start Edge_2Ddist analysis ...
+    Generate random MGI set radius on 1 cores...
+    Calculate pathway radius and siginificant level...
+       1 / 10 , TISSUE INVASION AND METASTASIS :0 
+       2 / 10 , RESISTING CELL DEATH :0.0106 
+       3 / 10 , SUSTAINED ANGIOGENESIS :0 
+       4 / 10 , SUSTAINING PROLIFERATIVE SIGNALING :0.0367 
+       5 / 10 , EVADING GROWTH SUPPRESSORS :6e-04 
+       6 / 10 , TUMOR-PROMOTING INFLAMMATION :0 
+       7 / 10 , REPROGRAMMING ENERGY METABOLISM :0.0269 
+       8 / 10 , REPLICATIVE IMMORTALITY :0.5425 
+       9 / 10 , EVADING IMMUNE DESTRUCTION :0.1271 
+       10 / 10 , GENOME INSTABILITY :1 
+  Edge-2Ddist analysis have finished!
+    - Edge_2Ddist finished, time cost: 9.063 s. 
+
+  Start Edge_MANOVA analysis ...
+    - Edge_manova finished, time cost: 1.446 s. 
+
+  Start Edge-Topology analysis ...
+    Start analysis on 10 pathways...
+    Calculate pathway scores and siginificant level on 8 cores...
+      Total MGI size of each core is: 52716 44676 44615 33691 13822 13625 21884 21606 
+  Edge-Topology analysis have finished!
+    - Edge_Topology finished, time cost: 1812.121 s. 
+
+  Start Edge-Network analysis ...
+    Build restart list...
+      Size of sparse restart_matrix: 35.54216 MB.
+    Build transition matrix...
+      Size of transition_matrix: 91.02197 MB.
+    Execute RWR with 1000 iterations on 8 cores...
+    Summarise by pathways...
+  Edge-Network analysis have finished!
+    - Edge_Network finished, time cost: 214.159 s. 
+
+miREA analysis have finished!...
+=== End time: 2025-11-29 02:09:03 ===
+Step 3. summary...
+
+  === Start time: 2025-11-29 02:09:03 ===
+Step 4. Visualization...
+
+  === Start time: 2025-11-29 02:09:03 ===
+    Please check the summary plot and pvalue density plot at: results/hallmark/BLCA/plot/    Heatmap plot for Edge_ORA :
+    Please check the heatmap & sankey plot for Edge_ORA at: results/hallmark/BLCA/plot/ 
+    Heatmap plot for Edge_Score :
+    Please check the heatmap & sankey plot for Edge_Score at: results/hallmark/BLCA/plot/ 
+    Heatmap plot for Edge_2Ddist :
+    Please check the heatmap & sankey plot for Edge_2Ddist at: results/hallmark/BLCA/plot/ 
+    Heatmap plot for Edge_manova :
+    Please check the heatmap & sankey plot for Edge_manova at: results/hallmark/BLCA/plot/ 
+    Heatmap plot for Edge_Topology :
+    Heatmap plot for Edge_Network :
+    Please check the heatmap & sankey plot for Edge_Network at: results/hallmark/BLCA/plot/ 
+
+Mission completed! Please check your folder:
+     results/hallmark/BLCA/ 
+
+  === End time: 2025-11-29 02:09:24 ===

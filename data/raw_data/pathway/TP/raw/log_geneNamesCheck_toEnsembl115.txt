@@ -1,0 +1,73 @@
+Start checking BLCA ....
+   1 genes are not included. They are: ENSG00000238142 
+  Genes: ENSG00000238142 are not aliases. Delete them.
+BLCA finished!
+Start checking BRCA ....
+   27 genes are not included. They are: ENSG00000278932, C4orf19, ENSG00000280119, C17orf49, ENSG00000291006, SLC22A18, C7orf50, ENSG00000240291, ENSG00000289047, ENSG00000187185, ENSG00000301761, ENSG00000293341, ENSG00000255367, ENSG00000269825, C1orf131, C6orf226, CENPJ, EIF1B-AS1, ENSG00000187951, ENSG00000232995, ENSG00000233461, ENSG00000236098, ENSG00000239137, ENSG00000248187, ENSG00000266401, ENSG00000273162, ENSG00000273727 
+  Tranform genes: SLC22A18, CENPJ, C6orf226, EIF1B-AS1, C7orf50, C17orf49, C1orf131, C4orf19 
+  These genes are deleted because no mapping HGNC symbol: ENSG00000278932, ENSG00000280119, ENSG00000291006, ENSG00000240291, ENSG00000289047, ENSG00000187185, ENSG00000301761, ENSG00000293341, ENSG00000255367, ENSG00000269825, ENSG00000187951, ENSG00000232995, ENSG00000233461, ENSG00000236098, ENSG00000239137, ENSG00000248187, ENSG00000266401, ENSG00000273162, ENSG00000273727 
+BRCA finished!
+Start checking CESC ....
+   1 genes are not included. They are: CENPJ 
+  Tranform genes: CENPJ 
+  These genes are deleted because no mapping HGNC symbol:  
+CESC finished!
+Start checking COAD ....
+   3 genes are not included. They are: CCDC103, SLC22A18, SLC22A18AS 
+  Tranform genes: SLC22A18, SLC22A18AS, CCDC103 
+  These genes are deleted because no mapping HGNC symbol:  
+COAD finished!
+Start checking ESCA ....
+   1 genes are not included. They are: CCDC115 
+  Tranform genes: CCDC115 
+  These genes are deleted because no mapping HGNC symbol:  
+ESCA finished!
+Start checking KIRC ....
+  All pathway genes in KIRC TP pathways are in Ensembl version 115.
+KIRC finished!
+Start checking KIRP ....
+  All pathway genes in KIRP TP pathways are in Ensembl version 115.
+KIRP finished!
+Start checking LIHC ....
+   12 genes are not included. They are: C1orf131, C6orf226, C7orf50, TMEM199, ENSG00000268460, ENSG00000301761, SLC22A18, CENPJ, ENSG00000245748, ENSG00000284691, STK19, SLC22A18AS 
+  Tranform genes: SLC22A18, SLC22A18AS, CENPJ, C6orf226, STK19, C7orf50, C1orf131, TMEM199 
+  These genes are deleted because no mapping HGNC symbol: ENSG00000268460, ENSG00000301761, ENSG00000245748, ENSG00000284691 
+LIHC finished!
+Start checking LUAD ....
+   2 genes are not included. They are: SLC22A18, C17orf49 
+  Tranform genes: SLC22A18, C17orf49 
+  These genes are deleted because no mapping HGNC symbol:  
+LUAD finished!
+Start checking LUSC ....
+   1 genes are not included. They are: SLC22A18 
+  Tranform genes: SLC22A18 
+  These genes are deleted because no mapping HGNC symbol:  
+LUSC finished!
+Start checking PAAD ....
+  All pathway genes in PAAD TP pathways are in Ensembl version 115.
+PAAD finished!
+Start checking PRAD ....
+   4 genes are not included. They are: C14orf28, ENSG00000254531, ENSG00000301761, ENSG00000291006 
+  Tranform genes: C14orf28 
+  These genes are deleted because no mapping HGNC symbol: ENSG00000254531, ENSG00000301761, ENSG00000291006 
+PRAD finished!
+Start checking READ ....
+   2 genes are not included. They are: SLC22A18, SLC22A18AS 
+  Tranform genes: SLC22A18, SLC22A18AS 
+  These genes are deleted because no mapping HGNC symbol:  
+READ finished!
+Start checking STAD ....
+  All pathway genes in STAD TP pathways are in Ensembl version 115.
+STAD finished!
+Start checking THCA ....
+   5 genes are not included. They are: SLC22A18, ENSG00000187951, ENSG00000302531, ENSG00000287769, ENSG00000248161 
+  Tranform genes: SLC22A18 
+  These genes are deleted because no mapping HGNC symbol: ENSG00000187951, ENSG00000302531, ENSG00000287769, ENSG00000248161 
+THCA finished!
+Start checking UCEC ....
+  All pathway genes in UCEC TP pathways are in Ensembl version 115.
+UCEC finished!
+[1] 6637
+[1] 6637
+[1] 6637
+3259 735 729 538 727 1911 783 3538 2277 751
