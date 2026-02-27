@@ -54,9 +54,6 @@ if (path_name == "Reactome"){
 } else if (path_name == "hallmark"){
   pathway <- read.csv("data/raw_data/pathway/hallmark/hallmark_gene.csv", header = TRUE)
   GGI_source = "Omnipath"
-}  else if (path_name == "TN"){
-  pathway <- read.csv("data/raw_data/pathway/TN/TN_gene.csv", header = TRUE)
-  GGI_source = "Omnipath"
 } else if (path_name == "TP"){
   pathway <- read.csv(paste0("data/raw_data/pathway/TP/cancer_specific/TP_", cancer, "_gene.csv"), header = TRUE)
   GGI_source <- "Omnipath"
